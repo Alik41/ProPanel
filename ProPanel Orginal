@@ -1,0 +1,341 @@
+-- ProPanel
+-- Made By H1CKER_ALI
+
+-- Instances:
+
+local propanel = Instance.new("ScreenGui")
+local ProPanel = Instance.new("Frame")
+local scripts = Instance.new("ScrollingFrame")
+local infiniteyield = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local WHITEWEB = Instance.new("TextButton")
+local ezhub = Instance.new("TextButton")
+local trollfe = Instance.new("TextButton")
+local topkek40 = Instance.new("TextButton")
+local OPFinality = Instance.new("TextButton")
+local dex = Instance.new("TextButton")
+local prisonbreak = Instance.new("TextButton")
+local bartext = Instance.new("TextLabel")
+local cmds = Instance.new("ScrollingFrame")
+local fly = Instance.new("TextButton")
+local nuke = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
+local noclip = Instance.new("TextButton")
+local btools = Instance.new("TextButton")
+local deleteobjects = Instance.new("TextButton")
+local InvisibleFling = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local logo = Instance.new("TextLabel")
+local credits = Instance.new("TextButton")
+
+--Properties:
+
+propanel.Name = "propanel"
+propanel.Parent = game.CoreGui
+propanel.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ProPanel.Name = "ProPanel"
+ProPanel.Parent = propanel
+ProPanel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+ProPanel.BackgroundTransparency = 0.100
+ProPanel.BorderColor3 = Color3.fromRGB(40, 40, 40)
+ProPanel.Position = UDim2.new(0.233804911, 0, 0.279365063, 0)
+ProPanel.Size = UDim2.new(0, 692, 0, 376)
+ProPanel.Active = true
+ProPanel.Draggable = true
+
+scripts.Name = "scripts"
+scripts.Parent = ProPanel
+scripts.Active = true
+scripts.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+scripts.BorderColor3 = Color3.fromRGB(24, 24, 24)
+scripts.Position = UDim2.new(0.508670509, 0, 0.138297871, 0)
+scripts.Size = UDim2.new(0, 324, 0, 310)
+
+infiniteyield.Name = "infinite yield"
+infiniteyield.Parent = scripts
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.BorderColor3 = Color3.fromRGB(24, 24, 24)
+infiniteyield.Position = UDim2.new(0.0308641959, 0, 0.0206589401, 0)
+infiniteyield.Size = UDim2.new(0, 286, 0, 50)
+infiniteyield.Font = Enum.Font.ArialBold
+infiniteyield.Text = "Infinite Yield"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextSize = 46.000
+infiniteyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = scripts
+mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2.BorderColor3 = Color3.fromRGB(24, 24, 24)
+mm2.Position = UDim2.new(0.0308641959, 0, 0.10576532, 0)
+mm2.Size = UDim2.new(0, 286, 0, 50)
+mm2.Font = Enum.Font.ArialBold
+mm2.Text = "MM2 GUI"
+mm2.TextColor3 = Color3.fromRGB(0, 0, 0)
+mm2.TextSize = 46.000
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/hfYa3g1x'))()
+end)
+
+WHITEWEB.Name = "WHITE WEB"
+WHITEWEB.Parent = scripts
+WHITEWEB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WHITEWEB.BorderColor3 = Color3.fromRGB(24, 24, 24)
+WHITEWEB.Position = UDim2.new(0.0308641959, 0, 0.545924902, 0)
+WHITEWEB.Size = UDim2.new(0, 286, 0, 50)
+WHITEWEB.Font = Enum.Font.ArialBold
+WHITEWEB.Text = "WHITE WEB"
+WHITEWEB.TextColor3 = Color3.fromRGB(0, 0, 0)
+WHITEWEB.TextSize = 46.000
+WHITEWEB.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/yQrFvBuZ'))()
+end)
+
+ezhub.Name = "ez hub"
+ezhub.Parent = scripts
+ezhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ezhub.BorderColor3 = Color3.fromRGB(24, 24, 24)
+ezhub.Position = UDim2.new(0.0308641959, 0, 0.45682916, 0)
+ezhub.Size = UDim2.new(0, 286, 0, 50)
+ezhub.Font = Enum.Font.ArialBold
+ezhub.Text = "EZ Hub"
+ezhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ezhub.TextSize = 46.000
+ezhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+trollfe.Name = "troll fe"
+trollfe.Parent = scripts
+trollfe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trollfe.BorderColor3 = Color3.fromRGB(24, 24, 24)
+trollfe.Position = UDim2.new(0.0308641959, 0, 0.367733419, 0)
+trollfe.Size = UDim2.new(0, 286, 0, 50)
+trollfe.Font = Enum.Font.ArialBold
+trollfe.Text = "Troll FE"
+trollfe.TextColor3 = Color3.fromRGB(0, 0, 0)
+trollfe.TextSize = 46.000
+trollfe.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/K1r3EwJu'))()
+end)
+
+topkek40.Name = "topkek 4.0"
+topkek40.Parent = scripts
+topkek40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+topkek40.BorderColor3 = Color3.fromRGB(24, 24, 24)
+topkek40.Position = UDim2.new(0.0308641959, 0, 0.279967457, 0)
+topkek40.Size = UDim2.new(0, 286, 0, 50)
+topkek40.Font = Enum.Font.ArialBold
+topkek40.Text = "TopKek 4.0"
+topkek40.TextColor3 = Color3.fromRGB(0, 0, 0)
+topkek40.TextSize = 46.000
+topkek40.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://webtinq.nl/topkek-4.0/index.html'))()
+end)
+
+OPFinality.Name = "OPFinality"
+OPFinality.Parent = scripts
+OPFinality.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OPFinality.BorderColor3 = Color3.fromRGB(24, 24, 24)
+OPFinality.Position = UDim2.new(0.0308641959, 0, 0.190871701, 0)
+OPFinality.Size = UDim2.new(0, 286, 0, 50)
+OPFinality.Font = Enum.Font.ArialBold
+OPFinality.Text = "OPFinality"
+OPFinality.TextColor3 = Color3.fromRGB(0, 0, 0)
+OPFinality.TextSize = 46.000
+OPFinality.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/hQwnsGW2'))()
+end)
+
+dex.Name = "dex"
+dex.Parent = scripts
+dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dex.BorderColor3 = Color3.fromRGB(24, 24, 24)
+dex.Position = UDim2.new(0.0308641959, 0, 0.635020614, 0)
+dex.Size = UDim2.new(0, 286, 0, 50)
+dex.Font = Enum.Font.ArialBold
+dex.Text = "Dex Explorer"
+dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+dex.TextSize = 46.000
+dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alik41/Scripts/214f7098bc15e3166d0544f04524a5866dc5fe2e/Dex%20Explorer'),true))()
+end)
+
+prisonbreak.Name = "prison break"
+prisonbreak.Parent = scripts
+prisonbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prisonbreak.BorderColor3 = Color3.fromRGB(24, 24, 24)
+prisonbreak.Position = UDim2.new(0.0308641959, 0, 0.724116325, 0)
+prisonbreak.Size = UDim2.new(0, 286, 0, 50)
+prisonbreak.Font = Enum.Font.ArialBold
+prisonbreak.Text = "Prison Breaker"
+prisonbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonbreak.TextSize = 36.000
+prisonbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/4rkRHviN'))()
+end)
+
+bartext.Name = "bar text"
+bartext.Parent = ProPanel
+bartext.BackgroundColor3 = Color3.fromRGB(41, 40, 40)
+bartext.BorderColor3 = Color3.fromRGB(39, 39, 39)
+bartext.Position = UDim2.new(0.0838150233, 0, 0, 0)
+bartext.Size = UDim2.new(0, 200, 0, 50)
+bartext.Font = Enum.Font.Arial
+bartext.Text = "roPanel"
+bartext.TextColor3 = Color3.fromRGB(0, 0, 0)
+bartext.TextSize = 60.000
+
+cmds.Name = "cmds"
+cmds.Parent = ProPanel
+cmds.Active = true
+cmds.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+cmds.BorderColor3 = Color3.fromRGB(24, 24, 24)
+cmds.Position = UDim2.new(0.0231213868, 0, 0.140957445, 0)
+cmds.Size = UDim2.new(0, 324, 0, 310)
+
+fly.Name = "fly"
+fly.Parent = cmds
+fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly.BorderColor3 = Color3.fromRGB(24, 24, 24)
+fly.Position = UDim2.new(0.0401234552, 0, 0.021988675, 0)
+fly.Size = UDim2.new(0, 286, 0, 50)
+fly.Font = Enum.Font.ArialBold
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 46.000
+fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
+end)
+
+nuke.Name = "nuke"
+nuke.Parent = cmds
+nuke.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nuke.BorderColor3 = Color3.fromRGB(24, 24, 24)
+nuke.Position = UDim2.new(0.0401234552, 0, 0.279967397, 0)
+nuke.Size = UDim2.new(0, 286, 0, 50)
+nuke.Font = Enum.Font.ArialBold
+nuke.Text = "Nuke"
+nuke.TextColor3 = Color3.fromRGB(0, 0, 0)
+nuke.TextSize = 46.000
+nuke.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/MB68z86E'))()
+end)
+
+teleport.Name = "teleport"
+teleport.Parent = cmds
+teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleport.BorderColor3 = Color3.fromRGB(24, 24, 24)
+teleport.Position = UDim2.new(0.0401234552, 0, 0.190871656, 0)
+teleport.Size = UDim2.new(0, 286, 0, 50)
+teleport.Font = Enum.Font.ArialBold
+teleport.Text = "Teleport"
+teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleport.TextSize = 46.000
+teleport.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/sQDApNWX'))()
+end)
+
+noclip.Name = "noclip"
+noclip.Parent = cmds
+noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+noclip.BorderColor3 = Color3.fromRGB(24, 24, 24)
+noclip.Position = UDim2.new(0.0401234552, 0, 0.105765268, 0)
+noclip.Size = UDim2.new(0, 286, 0, 50)
+noclip.Font = Enum.Font.ArialBold
+noclip.Text = "Noclip"
+noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+noclip.TextSize = 46.000
+noclip.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/w0XEUW3y'))()
+end)
+
+btools.Name = "btools"
+btools.Parent = cmds
+btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btools.BorderColor3 = Color3.fromRGB(24, 24, 24)
+btools.Position = UDim2.new(0.0401234552, 0, 0.371722758, 0)
+btools.Size = UDim2.new(0, 286, 0, 50)
+btools.Font = Enum.Font.ArialBold
+btools.Text = "Build Tools"
+btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+btools.TextSize = 46.000
+btools.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Va0pBKqs'))()
+end)
+
+deleteobjects.Name = "delete objects"
+deleteobjects.Parent = cmds
+deleteobjects.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+deleteobjects.BorderColor3 = Color3.fromRGB(24, 24, 24)
+deleteobjects.Position = UDim2.new(0.0401234552, 0, 0.45948869, 0)
+deleteobjects.Size = UDim2.new(0, 286, 0, 50)
+deleteobjects.Font = Enum.Font.ArialBold
+deleteobjects.Text = "Delete Objects"
+deleteobjects.TextColor3 = Color3.fromRGB(0, 0, 0)
+deleteobjects.TextSize = 43.000
+deleteobjects.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/LZ4s6aF2'))()
+end)
+
+InvisibleFling.Name = "Invisible Fling"
+InvisibleFling.Parent = cmds
+InvisibleFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InvisibleFling.BorderColor3 = Color3.fromRGB(24, 24, 24)
+InvisibleFling.Position = UDim2.new(0.0401234552, 0, 0.547254622, 0)
+InvisibleFling.Size = UDim2.new(0, 286, 0, 50)
+InvisibleFling.Font = Enum.Font.ArialBold
+InvisibleFling.Text = "Invisible Fling"
+InvisibleFling.TextColor3 = Color3.fromRGB(0, 0, 0)
+InvisibleFling.TextSize = 41.000
+InvisibleFling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/g2zErRbJ'))()
+end)
+
+close.Name = "close"
+close.Parent = ProPanel
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+close.BorderColor3 = Color3.fromRGB(40, 39, 40)
+close.Position = UDim2.new(0.92774564, 0, 0, 0)
+close.Size = UDim2.new(0, 50, 0, 50)
+close.Font = Enum.Font.ArialBold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 60.000
+close.MouseButton1Down:connect(function()
+	ProPanel.Visible = false
+end)
+
+logo.Name = "logo"
+logo.Parent = ProPanel
+logo.BackgroundColor3 = Color3.fromRGB(41, 40, 40)
+logo.BorderColor3 = Color3.fromRGB(40, 40, 40)
+logo.Position = UDim2.new(0.0231213868, 0, 0.0212765951, 0)
+logo.Rotation = 9.000
+logo.Size = UDim2.new(0, 42, 0, 34)
+logo.Font = Enum.Font.ArialBold
+logo.Text = "P"
+logo.TextColor3 = Color3.fromRGB(0, 0, 0)
+logo.TextSize = 57.000
+logo.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = ProPanel
+credits.BackgroundColor3 = Color3.fromRGB(32, 58, 255)
+credits.BorderColor3 = Color3.fromRGB(40, 39, 40)
+credits.Position = UDim2.new(0.638728321, 0, 0, 0)
+credits.Size = UDim2.new(0, 200, 0, 50)
+credits.Font = Enum.Font.ArialBold
+credits.Text = "Credits"
+credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits.TextSize = 38.000
+credits.MouseButton1Down:connect(function()
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Credits",
+		Text = "Made By H1CKER_ALI",
+		Duration = 6,
+	})
+end)
